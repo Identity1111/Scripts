@@ -1,0 +1,7 @@
+if not isfolder("Bed 5411") then
+    makefolder("Bed 5411")
+end
+
+while wait(0.1) do
+    writefile("Bed 5411/message.txt", "HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. HELLO UR PC TRASH. ")
+end
